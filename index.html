@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Yuki Zhao</title>
+    <link rel="icon" href="img/browser-icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/glow-beam.css">
+</head>
+<body class="background-black">
+
+<script>
+    function toggle_less_more(clicked){
+        console.log($(clicked.getAttribute("href"))[0].classList.contains("show"));
+        if($(clicked.getAttribute("href"))[0].classList.contains("show")){
+            clicked.textContent = "▶ See More";
+        }else{
+            clicked.textContent = "▼ See Less";
+
+        }
+    }
+</script>
+
+<!--Nav Bar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark fading-navbar" style="height: 10vh">
+    <a class="navbar-brand" href="#">
+        <img src="img/logo-small.svg" class="navbar-image">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar7">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse flex-grow-1 text-right" id="myNavbar7">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+            <li class="nav-item active px-4">
+                <a href="#" class="nav-link">home</a>
+            </li>
+            <li class="nav-item px-4">
+                <a href="#about" class="nav-link">about</a>
+            </li>
+            <li class="nav-item px-4">
+                <a href="#resume" class="nav-link">resume</a>
+            </li>
+            <li class="nav-item px-4">
+                <a href="#contact" class="nav-link">contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<span class="anchor" id="home"></span>
+<div class="text-center center-viewport" style="">
+    <img class="logo-transition-logo" src="img/logo-glow.svg" style="width: 50%;transform: translate(50%,-20%)">
+    <img class="logo-transition-glow" src="img/logo-bottom-glow-reflection.svg"
+         style="width: 50%; opacity: 0.5; transform: translate(50%,80%)">
+    <div class="glow-beams">
+        <img class="glowbeam glow-1" src="img/glow_beams/2.svg" style="width: 15%; transform: translate(0,-130%);">
+        <img class="glowbeam glow-2" src="img/glow_beams/1.svg" style="width: 20%; transform: translate(-110%,70%)">
+        <img class="glowbeam glow-3" src="img/glow_beams/4.svg" style="width: 20%; transform: translate(100%,-80%)">
+        <img class="glowbeam glow-4" src="img/glow_beams/3.svg" style="width: 30%; transform: translate(40%,50%);">
+    </div>
+    <div class="mobile-unfriendly arrow bounce">
+    </div>
+</div>
+
+<span class="anchor" id="about"></span>
+<div class="container py-5">
+    <div class="row">
+        <div class="col mobile-unfriendly">
+            <div style="position: relative;">
+                <img src="img/banners/tianhua.svg" class="tianhua-banner">
+                <img src="img/banners/yukizhao.svg" class="yukizhao-banner">
+            </div>
+        </div>
+        <div class="col vcenter">
+            <h1 class="title">who am i?</h1>
+            <br>
+            <p>
+                I am Yuki Zhao, a high school student passionate in the humanities.
+                <br><br>
+                <span style="color: #fd30fd">5</span> years of debating <br>
+                <span style="color: #fd30fd">6</span> certificates <br>
+                <span style="color: #fd30fd">10</span> awards <br>
+            </p>
+
+            <br>
+            <a href="PDF/Business-Resume-Updated.pdf" class="button">DOWNLOAD RESUME</a>
+        </div>
+    </div>
+</div>
+<div class="col mobile-friendly">
+    <div style="position: relative;">
+        <img src="img/banners/tianhua.svg" style="position: absolute;height: 30vh;transform: translate(30vw, 0)">
+        <img src="img/banners/yukizhao.svg" style="position: absolute;height: 40vh;transform: translate(44vw, 10%)">
+    </div>
+</div>
+<span class="anchor" id="resume"></span>
+<div class="container" style="padding-top: 50vh">
+    <div class="row">
+        <div class="col text-center mobile-friendly">
+            <img src="img/neon-outline/education.svg" style="height: 30vh">
+            <br>
+            <br>
+        </div>
+        <div class="col vcenter">
+            <h1 class="title">skills.</h1>
+            <span style="font-size: 20px;color: #37abc8">Languages</span><br>
+            Fluent in English and Mandarin<br><br>
+            <span style="font-size: 20px;color: #37abc8">Team Work</span><br>
+            • Ability to build interpersonal relations<br>
+            • Can work under pressure with a calm demeanor<br>
+            • Ability to build interpersonal relations<br>
+            • A leader and a mentor within the school & the community<br>
+            <br>
+            <span style="font-size: 20px;color: #37abc8">Other</span><br>
+            • Proficient with technology and document processing<br><br>
+            <h1 class="title">education.</h1>
+            <div class="row py-4">
+                <div class="col-sm-3 text-left icon-col">
+                    <img src="img/icons/highschool.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #37abc8">Sept. 2015 - Jun. 2020</span><br>
+                    <span style="font-size: 20px">High School</span><br>
+                    Burnaby North Secondary School
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 text-left icon-col">
+                    <img src="img/icons/university.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #37abc8">2019</span><br>
+                    <span style="font-size: 20px">POL 101W</span><br>
+                    Simon Fraser University
+                </div>
+            </div>
+        </div>
+        <div class="col  mobile-unfriendly-neon">
+            <img src="img/neon-outline/education.svg" style="height: 50vh">
+        </div>
+    </div>
+</div>
+<!--Accomplishents, certificates, awards-->
+<div class="container py-5">
+    <div class="row">
+        <div class="col text-center mobile-friendly">
+            <img src="img/neon-outline/achievements.svg" style="height: 30vh">
+            <br>
+            <br>
+        </div>
+        <div class="col vcenter">
+            <h1 class="title">accomplishments.</h1>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/piano.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="font-size: 20px">Piano RCM Program Completion</span><br>
+                    <span style="color: #00fd00">Over 9 years of piano</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/flute.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="font-size: 20px">4 years of flute</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/debate.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #00fd00">2017 - present</span><br>
+                    <span style="font-size: 20px">President</span><br>
+                    <span>Burnaby North Debate Club</span>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/debate.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #00fd00">2019</span><br>
+                    <span style="font-size: 20px">Debate Coach</span><br>
+                    <span>Coached 1st & 2nd Place Team at LME Regionals</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/debate.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #00fd00">2019</span><br>
+                    <span style="font-size: 20px">Debate Coach</span><br>
+                    <span>Coached 2nd Place Team at Law Foundation Cup Provincials</span><br>
+                </div>
+            </div>
+            <a style="color: #00fd00;font-size: 3vw" data-toggle="collapse" href="#coach-collapse" role="button" aria-expanded="false"
+               aria-controls="collapseExample" onclick="toggle_less_more(this)">▶ See More</a>
+            <div class="collapse" id="coach-collapse">
+                <div class="row py-4">
+                    <div class="col-sm-3 icon-col">
+                        <img src="img/icons/debate.svg" class="icon">
+                    </div>
+                    <div class="col">
+                        <span style="color: #00fd00">2018</span><br>
+                        <span style="font-size: 20px">Debate Coach</span><br>
+                        <span>Coached 4th Place Team at Oxford Cup</span><br>
+                    </div>
+                </div>
+                <div class="row py-4">
+                    <div class="col-sm-3 icon-col">
+                        <img src="img/icons/debate.svg" class="icon">
+                    </div>
+                    <div class="col">
+                        <span style="color: #00fd00">2018</span><br>
+                        <span style="font-size: 20px">Debate Coach</span><br>
+                        <span>Coached 4th Place Team at B.C. Nationals Qualifier</span><br>
+                    </div>
+                </div>
+            </div>
+            <h1 class="title">certificates.</h1>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/certificate.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="font-size: 20px">Certificate of Participation UN Global Student Leader</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/certificate.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="font-size: 20px">Windows Certificate of Completion “Start Your Own Business”</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/certificate.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="font-size: 20px">Canadian Red Cross Youth Certificate “Beyond the Hurt”</span><br>
+                </div>
+            </div>
+            <a style="color: #00fd00;font-size: 3vw" data-toggle="collapse" href="#certificate-collapse" role="button" aria-expanded="false"
+               aria-controls="collapseExample" onclick="toggle_less_more(this)">▶ See More</a>
+            <div class="collapse" id="certificate-collapse">
+                <div class="row py-4">
+                    <div class="col-sm-3 icon-col">
+                        <img src="img/icons/certificate.svg" class="icon">
+                    </div>
+                    <div class="col">
+                        <span style="font-size: 20px">High-Five Training Certified</span><br>
+                    </div>
+                </div>
+                <div class="row py-4">
+                    <div class="col-sm-3 icon-col">
+                        <img src="img/icons/certificate.svg" class="icon">
+                    </div>
+                    <div class="col">
+                        <span style="font-size: 20px">Red Cross Student Movement-Humanitarians in Training Program</span><br>
+                    </div>
+                </div>
+                <div class="row py-4">
+                    <div class="col-sm-3 icon-col">
+                        <img src="img/icons/certificate.svg" class="icon">
+                    </div>
+                    <div class="col">
+                        <span style="font-size: 20px">National High School Business Conference Certificate of Completion</span><br>
+                    </div>
+                </div>
+            </div>
+            <h1 class="title">awards.</h1>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/debate.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #00fd00">2019</span><br>
+                    <span style="font-size: 20px">33<sup>rd</sup> Stanford Invitational Debate Tournament</span><br>
+                    <span style="color: goldenrod">Champion Team</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/debate.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #00fd00">2019</span><br>
+                    <span style="font-size: 20px">SFU Public Forum Debate Tournament</span><br>
+                    <span style="color: goldenrod">Champion Team</span><br>
+                    <span style="color: silver">2<sup style="color: silver">nd</sup> Place Speaker</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/case.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #00fd00">2019</span><br>
+                    <span style="font-size: 20px">National High School Deloitte Case Competition</span><br>
+                    <span style="color: goldenrod">Champion Team</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/debate.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #00fd00">2018</span><br>
+                    <span style="font-size: 20px">UBC HST Spring</span><br>
+                    <span style="color: goldenrod">Champion Team</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/debate.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #00fd00">2018</span><br>
+                    <span style="font-size: 20px">32<sup>nd</sup> Stanford Invitational Debate Tournament</span><br>
+                    <span>Top 50 Speaker</span><br>
+                    <span>Double Octo-Finalist</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/pencil.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #00fd00">2014 - 2017</span><br>
+                    <span style="font-size: 20px">Kumon Math Honour Roll</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/book.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #00fd00">2013 - 2016</span><br>
+                    <span style="font-size: 20px">Kumon Reading Honour Roll</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 icon-col">
+                    <img src="img/icons/piano.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #00fd00">2008 - 2017</span><br>
+                    <span style="font-size: 20px">Honours Piano Exams</span><br>
+                </div>
+            </div>
+        </div>
+        <div class="col mobile-unfriendly-neon">
+            <img src="img/neon-outline/achievements.svg" style="height: 40vh">
+        </div>
+    </div>
+</div>
+<!--Experience and volunteering-->
+<div class="container py-5">
+    <div class="row">
+        <div class="col text-center mobile-friendly">
+            <img src="img/neon-outline/experience.svg" style="height: 30vh">
+            <br>
+            <br>
+        </div>
+        <div class="col vcenter">
+            <h1 class="title">experience.</h1>
+            <div class="row py-4">
+                <div class="col-sm-3 text-left icon-col">
+                    <img src="img/icons/leader.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #fc7d2a">Jul. 2017 - present</span><br>
+                    <span style="font-size: 20px">Marker</span><br>
+                    <span style="font-size: 15px">Kumon Incorporations</span><br>
+                    1210 Austin Ave.
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 text-left icon-col">
+                    <img src="img/icons/leader.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #fc7d2a">Nov. 2018 - present</span><br>
+                    <span style="font-size: 20px">Debate Coach</span><br>
+                    <span style="font-size: 15px">Vancouver Debate Academy</span><br>
+                    202-2445 W  41st Ave.
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 text-left icon-col">
+                    <img src="img/icons/leader.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #fc7d2a">Jul. 2019 - Aug. 2019</span><br>
+                    <span style="font-size: 20px">High School Intern</span><br>
+                    <span style="font-size: 15px">Iven KS Tse Law Corporation</span><br>
+                    604 West Broadway
+                </div>
+            </div>
+            <h1 class="title">volunteering.</h1>
+            <div class="row py-4">
+                <div class="col-sm-3 text-left icon-col">
+                    <img src="img/icons/debate-orange.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #fc7d2a">2017 - present</span><br>
+                    <span style="font-size: 20px">Debate Coach</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 text-left icon-col">
+                    <img src="img/icons/debate-orange.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #fc7d2a">2016 - present</span><br>
+                    <span style="font-size: 20px">Leadership</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 text-left icon-col">
+                    <img src="img/icons/debate-orange.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #fc7d2a">2018 - present</span><br>
+                    <span style="font-size: 20px">Mentorship</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 text-left icon-col">
+                    <img src="img/icons/debate-orange.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #fc7d2a">2017 - present</span><br>
+                    <span style="font-size: 20px">Elementary Student Tutor</span><br>
+                    <a style="color: #fc7d2a;" data-toggle="collapse" href="#elem-tutor-collapse" role="button" aria-expanded="false"
+                       aria-controls="collapseExample" onclick="toggle_less_more(this)">▶ See More</a>
+                    <div class="collapse" id="elem-tutor-collapse">
+                            Tutored students grades 1-5 in reading comprehension and oral
+                            language
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col mobile-unfriendly-neon">
+            <img src="img/neon-outline/experience.svg" style="height: 50vh">
+        </div>
+    </div>
+</div>
+<!--Contacts-->
+<span class="anchor" id="contact"></span>
+<div class="container py-5">
+    <div class="row">
+        <div class="col text-left mobile-unfriendly">
+            <img src="img/banners/youjia.svg" style="height: 50vh">
+        </div>
+        <div class="col text-center mobile-friendly">
+            <img src="img/banners/youjia.svg" style="height: 50vh">
+        </div>
+        <div class="col vcenter">
+            <h1 class="title">contact.</h1>
+            <div class="row py-4">
+                <div class="col-sm-3 text-left">
+                    <img src="img/icons/email.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #fd30fd">email</span><br>
+                    <span style="font-size: 20px">zhaoyyj@gmail.com</span><br>
+                </div>
+            </div>
+            <div class="row py-4">
+                <div class="col-sm-3 text-left">
+                    <img src="img/icons/phone.svg" class="icon">
+                </div>
+                <div class="col">
+                    <span style="color: #fd30fd">phone</span><br>
+                    <span style="font-size: 20px">778-697-5768</span><br>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container text-center" style="padding-top: 20vh; padding-bottom: 20vh">
+    <img src="img/logo-small.svg" style="width: 10vw">
+</div>
+<img src="img/footer.svg" style="width: 99vw">
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+</html>

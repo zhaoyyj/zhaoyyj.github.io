@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="46.773064mm"
+   height="46.773048mm"
+   viewBox="0 0 46.773064 46.773048"
+   version="1.1"
+   id="svg1726"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="piano.svg">
+  <defs
+     id="defs1720" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-805.89572"
+     inkscape:cy="168.39001"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="1013"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1723">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-319.05991,-146.61348)">
+    <ellipse
+       style="opacity:1;fill:#00fd00;fill-opacity:1;stroke:none;stroke-width:2.85636973;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="ellipse1461"
+       cx="342.44644"
+       cy="170"
+       rx="23.386532"
+       ry="23.386524" />
+    <g
+       style="opacity:0.98999999"
+       id="g1558"
+       transform="matrix(0.04272324,0,0,0.04272324,331.50926,159.06282)">
+      <g
+         id="g1501">
+        <g
+           id="g1499">
+          <path
+             id="path1497"
+             d="M 464,0 H 48 C 21.49,0 0,21.49 0,48 v 416 c 0,26.51 21.49,48 48,48 h 416 c 26.51,0 48,-21.49 48,-48 V 48 C 512,21.49 490.51,0 464,0 Z M 112,480 H 48 c -8.837,0 -16,-7.163 -16,-16 V 48 c 0,-8.837 7.163,-16 16,-16 h 32 v 240 c 0,8.837 7.163,16 16,16 h 16 z m 128,0 H 144 V 288 h 16 c 8.837,0 16,-7.163 16,-16 V 32 h 32 v 240 c 0,8.837 7.163,16 16,16 h 16 z m 128,0 H 272 V 288 h 16 c 8.837,0 16,-7.163 16,-16 V 32 h 32 v 240 c 0,8.837 7.163,16 16,16 h 16 z m 112,-16 c 0,8.837 -7.163,16 -16,16 H 400 V 288 h 16 c 8.837,0 16,-7.163 16,-16 V 32 h 32 c 8.837,0 16,7.163 16,16 z"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <g
+         id="g1503" />
+      <g
+         id="g1505" />
+      <g
+         id="g1507" />
+      <g
+         id="g1509" />
+      <g
+         id="g1511" />
+      <g
+         id="g1513" />
+      <g
+         id="g1515" />
+      <g
+         id="g1517" />
+      <g
+         id="g1519" />
+      <g
+         id="g1521" />
+      <g
+         id="g1523" />
+      <g
+         id="g1525" />
+      <g
+         id="g1527" />
+      <g
+         id="g1529" />
+      <g
+         id="g1531" />
+    </g>
+  </g>
+</svg>

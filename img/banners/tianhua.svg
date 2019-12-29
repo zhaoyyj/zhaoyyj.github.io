@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="150.01657mm"
+   height="224.34663mm"
+   viewBox="0 0 150.01657 224.34663"
+   version="1.1"
+   id="svg10034"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="tianhua.svg">
+  <defs
+     id="defs10028">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter1869-4"
+       x="-0.21006706"
+       width="1.4201341"
+       y="-0.08398927"
+       height="1.1679785">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="14.636131"
+         id="feGaussianBlur1871-6" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="-493.64695"
+     inkscape:cy="283.96216"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1680"
+     inkscape:window-height="1013"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata10031">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-46.700042,0.38164879)">
+    <g
+       style="opacity:0.98999999"
+       id="g10026"
+       transform="matrix(0.63172835,0,0,0.63172835,1985.6902,-686.47657)"
+       inkscape:export-filename="/home/frank/WebstormProjects/Yuki_Website/img/tianhua.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100">
+      <rect
+         style="opacity:1;fill:#ff30ff;fill-opacity:1;stroke:none;stroke-width:3.80152392;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         id="rect9954"
+         width="167.21666"
+         height="304.05655"
+         x="-3034.2151"
+         y="1111.5975" />
+      <rect
+         y="139.10851"
+         x="-2170.7478"
+         height="418.22858"
+         width="167.21666"
+         id="rect9956"
+         style="opacity:1;fill:#ff30ff;fill-opacity:1;stroke:none;stroke-width:4.45848608;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;filter:url(#filter1869-4)"
+         transform="matrix(1,0,0,0.72701042,-863.46717,1010.4642)" />
+      <text
+         id="text9962"
+         y="1230.3931"
+         x="-2895.918"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:110.13072968px;line-height:125%;font-family:TarokoFont;-inkscape-font-specification:TarokoFont;text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:2.753268"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TarokoFont;-inkscape-font-specification:TarokoFont;fill:#ffffff;fill-opacity:1;stroke-width:2.753268"
+           y="1230.3931"
+           x="-2895.918"
+           id="tspan9958"
+           sodipodi:role="line">天</tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:TarokoFont;-inkscape-font-specification:TarokoFont;fill:#ffffff;fill-opacity:1;stroke-width:2.753268"
+           y="1368.0565"
+           x="-2895.918"
+           sodipodi:role="line"
+           id="tspan9960">花</tspan></text>
+    </g>
+  </g>
+</svg>

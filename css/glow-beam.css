@@ -1,0 +1,86 @@
+.div .glowbeams {
+
+}
+
+.glowbeam {
+    position: relative;
+}
+
+@keyframes glow-1-t {
+    from {
+        opacity: 0;
+        transform: translate(120%,-40%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(0%,-130%);
+    }
+}
+
+.glow-1 {
+    -webkit-animation: glow-1-t 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: glow-1-t 2s; /* Firefox < 16 */
+    -ms-animation: glow-1-t 2s; /* Internet Explorer */
+    -o-animation: glow-1-t 2s; /* Opera < 12.1 */
+    animation: glow-1-t 2s;
+}
+
+.glow-2 {
+    -webkit-animation: glow-2-t 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: glow-2-t 2s; /* Firefox < 16 */
+    -ms-animation: glow-2-t 2s; /* Internet Explorer */
+    -o-animation: glow-2-t 2s; /* Opera < 12.1 */
+    animation: glow-2-t 2s;
+}
+
+
+@keyframes glow-2-t {
+    from {
+        opacity: 0;
+        transform: translate(-10%,0%)
+    }
+    to {
+        opacity: 1;
+        transform: translate(-110%,70%)
+    }
+}
+
+.glow-3 {
+    -webkit-animation: glow-3-t 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: glow-3-t 2s; /* Firefox < 16 */
+    -ms-animation: glow-3-t 2s; /* Internet Explorer */
+    -o-animation: glow-3-t 2s; /* Opera < 12.1 */
+    animation: glow-3-t 2s;
+}
+
+
+@keyframes glow-3-t {
+    from {
+        opacity: 0;
+        transform: translate(60%,50%)
+    }
+    to {
+        opacity: 1;
+        transform: translate(100%,-80%)
+    }
+}
+
+.glow-4 {
+    -webkit-animation: glow-4-t 2s; /* Safari, Chrome and Opera > 12.1 */
+    -moz-animation: glow-4-t 2s; /* Firefox < 16 */
+    -ms-animation: glow-4-t 2s; /* Internet Explorer */
+    -o-animation: glow-4-t 2s; /* Opera < 12.1 */
+    animation: glow-4-t 2s;
+}
+
+
+@keyframes glow-4-t {
+    from {
+        opacity: 0;
+        transform: translate(0%,50%);
+    }
+    to {
+        opacity: 1;
+        transform: translate(40%,50%)
+    }
+}

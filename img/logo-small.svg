@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="69.861748mm"
+   height="51.451351mm"
+   viewBox="0 0 69.861748 51.451351"
+   version="1.1"
+   id="svg9372"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="logo-small.svg">
+  <defs
+     id="defs9366">
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter9696"
+       x="-0.028708192"
+       width="1.0574164"
+       y="-0.12655377"
+       height="1.2531075">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="3.8024042"
+         id="feGaussianBlur9698" />
+    </filter>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="514.28639"
+     inkscape:cy="-159.91195"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1016"
+     inkscape:window-x="1680"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata9369">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(59.877286,-58.095755)">
+    <g
+       transform="translate(2124.3411,618.8765)"
+       style="opacity:0.98999999"
+       id="g8676"
+       inkscape:export-filename="/home/frank/WebstormProjects/Yuki_Website/img/logo-small.svg.png"
+       inkscape:export-xdpi="100"
+       inkscape:export-ydpi="100">
+      <g
+         aria-label="yz."
+         transform="matrix(0.81342217,0,0,0.81342217,-1248.8955,-200.04704)"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:72.1098175px;line-height:125%;font-family:'Trend Sans';-inkscape-font-specification:'Trend Sans';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ff30ff;fill-opacity:0.9948454;stroke:none;stroke-width:1.80274534;filter:url(#filter9696)"
+         id="text1349">
+        <path
+           d="m -1118.1811,-437.08857 -10.9607,28.12283 -11.0328,-28.12283 h -7.3552 l 14.9988,35.76647 -6.3456,14.7104 h 6.9225 l 21.1282,-50.47687 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Acre;-inkscape-font-specification:Acre;fill:#ff30ff;fill-opacity:0.9948454;stroke-width:1.80274534"
+           id="path822" />
+        <path
+           d="m -1078.7089,-437.08857 h -29.9255 v 6.48988 h 18.6764 l -18.388,28.55549 v 1.00954 h 29.2045 v -6.48988 h -18.0275 l 18.4601,-28.69971 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Acre;-inkscape-font-specification:Acre;fill:#ff30ff;fill-opacity:0.9948454;stroke-width:1.80274534"
+           id="path824" />
+        <path
+           d="m -1070.85,-400.52889 c 2.5238,0 4.5429,-2.01908 4.5429,-4.54292 0,-2.45173 -2.0191,-4.54292 -4.5429,-4.54292 -2.5239,0 -4.4708,2.09119 -4.4708,4.54292 0,2.52384 1.9469,4.54292 4.4708,4.54292 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Acre;-inkscape-font-specification:Acre;fill:#ff30ff;fill-opacity:0.9948454;stroke-width:1.80274534"
+           id="path826" />
+      </g>
+      <g
+         aria-label="yz."
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:58.65572739px;line-height:125%;font-family:'Trend Sans';-inkscape-font-specification:'Trend Sans';text-align:end;letter-spacing:0px;word-spacing:0px;text-anchor:end;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.46639299"
+         id="text1353">
+        <path
+           d="m -2158.4491,-555.58452 -8.9156,22.87574 -8.9744,-22.87574 h -5.9829 l 12.2004,29.09324 -5.1617,11.96577 h 5.631 l 17.1861,-41.05901 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Acre;-inkscape-font-specification:Acre;fill:#ffffff;fill-opacity:1;stroke-width:1.46639299"
+           id="path829" />
+        <path
+           d="m -2126.3415,-555.58452 h -24.3421 v 5.27902 h 15.1918 l -14.9572,23.22767 v 0.82118 h 23.7556 v -5.27902 h -14.6639 l 15.0158,-23.34498 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Acre;-inkscape-font-specification:Acre;fill:#ffffff;fill-opacity:1;stroke-width:1.46639299"
+           id="path831" />
+        <path
+           d="m -2119.9489,-525.84606 c 2.0529,0 3.6953,-1.64236 3.6953,-3.69531 0,-1.9943 -1.6424,-3.69531 -3.6953,-3.69531 -2.053,0 -3.6367,1.70101 -3.6367,3.69531 0,2.05295 1.5837,3.69531 3.6367,3.69531 z"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Acre;-inkscape-font-specification:Acre;fill:#ffffff;fill-opacity:1;stroke-width:1.46639299"
+           id="path833" />
+      </g>
+    </g>
+  </g>
+</svg>
