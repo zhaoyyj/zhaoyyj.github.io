@@ -1,11 +1,10 @@
 @font-face {
-    font-family: 'Acre';
-    src: url('../fonts/Acre.otf'); /* IE9 Compat Modes */
-    src: url('../fonts/Acre.otf?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('../fonts/Acre.otf') format('otf') /* Super Modern Browsers */
+    font-family: acre;
+    src: url(../fonts/Acre.otf);
 }
 
-* {
-    font-family: Acre;
+*{
+    font-family: acre;
     color: white;
 }
 
